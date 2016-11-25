@@ -1,0 +1,9 @@
+<!--aboutMe.wxml-->
+<view class="detailCont">
+  <view  bindtap="bindViewTapMe" class="detail-block">
+    <image class="detail-img" src="{{dataDetail.urlImg}}" background-size="cover" mode="aspectFit"></image>
+    <text class="detail-title">{{dataDetail.title}}</text>
+  </view>
+  <view class="detail-me">{{dataDetail.contter}}</view>
+ 
+</view>

@@ -1,0 +1,17 @@
+<!--aboutMe.wxml-->
+<view class="aboutCont">
+  <view  bindtap="bindViewTapMe" class="about-block">
+    <image class="about-img" src="{{aboutImg.titleUrl}}" background-size="cover" mode="aspectFit"></image>
+    <text class="about-title">{{aboutImg.titleName}}</text>
+  </view>
+  <view class="about-me">{{aboutMeMore}}</view>
+  <view class="contact-title">联系方式</view>
+  <view class="contact-me">
+    <view class="cont-type" wx:for="{{arryAbout}}" wx:for-item="itme">
+        <text>{{itme.mesName}}：</text>
+        <text>{{itme.message}}</text>
+    </view>
+  </view>
+  
+
+</view>

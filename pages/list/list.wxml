@@ -1,0 +1,30 @@
+<!--list.wxml-->
+<scroll-view class="listCont" scroll-y="true">
+<!--列表模板 begin-->
+
+<template name="list" >
+ <view class="list-img">
+  <image class="list-img-del" src="{{urlImg}}" background-size="cover" mode="aspectFit" data-listId="{{id}}" data-time="{{time}}" bindtap="gotoDel"></image>
+ </view>
+ <view class="list-txt">
+  <view class="txt-all" data-listId="{{id}}" bindtap="gotoDel">{{title}}</view>
+  <view class="txt-all txt-time" data-listId="{{id}}" bindtap="gotoDel">{{time}}</view>
+ </view>
+</template>
+
+<!--列表模板 end-->
+
+<!--列表循环输出 begin-->
+
+<view class="cont-type" wx:for="{{arryList}}" wx:for-item="itme">
+
+  <template is="list" data="{{...itme}}"/>
+
+</view>
+
+
+<!--列表循环输出 end-->
+
+
+
+</scroll-view>

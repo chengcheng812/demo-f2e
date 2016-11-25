@@ -1,0 +1,25 @@
+/**detail.wxss**/
+.detailCont{
+     font-size: 14px;
+     padding: 16px;
+}
+.detail-block{
+    text-align: center;
+}
+.detail-img{
+    display: block;
+    max-width: 15rem;
+    margin: 0 auto;
+    max-height: 200px;
+}
+.detail-title{
+    display: block;
+    color: #999;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.detail-me{
+    margin-top: 15px;
+    text-indent: 2em;
+    line-height: 24px;
+}

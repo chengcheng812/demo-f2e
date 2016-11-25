@@ -1,0 +1,30 @@
+/**aboutMe.wxss**/
+.aboutCont{
+     font-size: 14px;
+     padding: 16px;
+}
+.about-block{
+    text-align: center;
+}
+.about-img{
+    display: block;
+    max-width: 15rem;
+    margin: 0 auto;
+    max-height: 200px;
+}
+.about-title{
+    display: block;
+    color: #999;
+    font-size: 20px;
+}
+.about-me{
+    margin-top: 15px;
+    text-indent: 2em;
+    line-height: 24px;
+}
+.contact-title{
+    margin-top: 20px;
+}
+.contact-me,.cont-type{
+    margin-top: 10px;
+}
